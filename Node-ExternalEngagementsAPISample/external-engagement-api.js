@@ -13,6 +13,8 @@
 
     Install the node request module:
     'npm install request'
+
+    You will also need an IVR Engagement set up for it to work.
 */
 
 
@@ -38,8 +40,8 @@ request.post({
     headers: {'content-Type': 'application/json'}
 }, function (e, r, b) {
 	if(e){
-		console.log("Regular Error: " + e);
+		console.log("Error: " + e);
 	} else {
-		console.log("Other Error: " + JSON.stringify(b));
+		console.log(JSON.stringify(b));
 	}
 });
