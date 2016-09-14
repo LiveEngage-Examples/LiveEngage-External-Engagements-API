@@ -7,12 +7,14 @@
 # {
 #  "service": "smt",
 #  "account": “ACCNO”,
-#  "baseURI": "sy.v.liveperson.net"
+#  "baseURI": "va.v.liveperson.net"
 # }
 
 # Install the Python Requests library:
 # `pip install requests`
 # `pip install requests_oauthlib`
+#
+# You will also need to set up an IVR Engagement
 
 
 import requests
